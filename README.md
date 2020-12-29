@@ -1,86 +1,86 @@
 # Music-bot
-A complete code to download for a music bot. Using a module (discord-player) 🎧
+Un code complet à télécharger pour un robot musical. Utilisation d'un module (discord-player) 🎧
 
-Looking for a code for a music bot ? This fully open source code is made for your project !
+Vous cherchez un code pour un robot musical? Ce code entièrement open source est fait pour votre projet!
 
-If you need help with this project, to get support faster you can join the help server by just clicking [here](https://discord.gg/5cGSYV8ZZj).
+Si vous avez besoin d'aide avec ce projet, pour obtenir de l'aide plus rapidement, vous pouvez rejoindre le serveur d'aide en cliquant simplement sur [ici] (https://discord.gg/pqJWBB5YEs).
 
 ### ⚡ Installation
 
-Well, let's start by downloading the code.
-Go to the folder `config` then the file `bot.js`.
-For the bot to be able to start, please complete the file with your credentials as follows :
+Eh bien, commençons par télécharger le code.
+Allez dans le dossier `config` puis le fichier` bot.js`.
+Pour que le bot puisse démarrer, veuillez compléter le fichier avec vos informations d'identification comme suit:
 
-- For emojis
+- Pour les emojis
 
-```js
+`` `js
 emojis: {
-    off: ':x:',
-    error: ':warning:',
-    queue: ':bar_chart:',
-    music: ':musical_note:',
-    success: ':white_check_mark:',
+    off: ': x:',
+    erreur: ': avertissement:',
+    file d'attente: ': bar_chart:',
+    musique: ': musical_note:',
+    succès: ': white_check_mark:',
 }
-```
+''
 
-- For configuration
+- Pour la configuration
 
-```js
-discord: {
-    token: 'TOKEN',
-    prefix: 'PREFIX',
-    activity: 'ACTIVITY',
+`` `js
+discorde: {
+    jeton: 'TOKEN',
+    préfixe: 'PREFIX',
+    activité: 'ACTIVITÉ',
 }
-```
+''
 
-- `token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section.
-- `prefix`, the prefix that will be set to use the bot.
-- `activity`, the activity of the bot.
+- `token`, le token du bot disponible dans la section [Discord Developers] (https://discordapp.com/developers/applications).
+- `prefix`, le préfixe qui sera défini pour utiliser le bot.
+- «activité», l'activité du bot.
 
-In the console, type `npm install` to install all dependencies.
+Dans la console, tapez «npm install» pour installer toutes les dépendances.
 
-- To start the bot :
+- Pour démarrer le bot:
 
-```
+''
 #With Node
-node index.js
-npm start #Indicated in package.json
+noeud index.js
+npm start #Indiqué dans package.json
 
-#With pm2
+# Avec pm2
 pm2 start index.js --name "MusicBot"
-```
+''
 
-All you have to do is turn on your bot !
+Tout ce que vous avez à faire est d'allumer votre bot!
 
-### 🎵 Music commands
+### 🎵 Commandes musicales
 
-```
-play <name/URL>, play music in a voice channel.
-search <name>, open a panel to choose a music and then play it.
-pause, pause the current music.
-resume, puts the current music back on.
-queue, see the next songs.
-clear-queue, remove music in the queue.
-shuffle, to mix the queue.
-nowplaying, see music in progress.
-loop, to enable or disable the repeat function.
-volume <1 - 100>, change the volume.
-skip, skip to next music.
-stop, stop all music.
-filter <filter>, add / remove filter.
-w-filters, see filters.
-```
+''
+lire <nom / URL>, écouter de la musique sur un canal vocal.
+recherchez <nom>, ouvrez un panneau pour choisir une musique, puis écoutez-la.
+mettre en pause, mettre en pause la musique actuelle.
+reprendre, remet la musique actuelle en marche.
+file d'attente, voir les chansons suivantes.
+clear-queue, supprimez la musique de la file d'attente.
+shuffle, pour mélanger la file d'attente.
+nowplaying, voir la musique en cours.
+boucle, pour activer ou désactiver la fonction de répétition.
+volume <1 - 100>, changez le volume.
+sauter, passer à la musique suivante.
+arrêtez, arrêtez toute musique.
+filtre <filtre>, ajouter / supprimer un filtre.
+w-filters, voir les filtres.
+''
 
-### 💡 General commands
+### 💡 Commandes générales
 
-```
-ping, see the bot latency.
-help, see the list of available commands.
-debug, see number of voice connections.
-```
+''
+ping, voyez la latence du bot.
+help, consultez la liste des commandes disponibles.
+debug, voir le nombre de connexions vocales.
+''
 
-### 🏓 Utilities (to change the code)
+### 🏓 Utilitaires (pour changer le code)
 
-Find all the functions available on the official code [right here](https://github.com/Androz2091/discord-player).
+Retrouvez toutes les fonctions disponibles sur le code officiel [ici] (https://github.com/Androz2091/discord-player).
 
-This is used with [discord.js](https://www.npmjs.com/package/discord.js) and [discord-player](https://www.npmjs.com/package/discord-player).
+Ceci est utilisé avec [discord.js] (https://www.npmjs.com/package/discord.js) et [discord-player] (https://www.npmjs.com/package/discord-player).
